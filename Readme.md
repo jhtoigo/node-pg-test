@@ -1,9 +1,17 @@
-# Node.js para testes de conexão com postgresql
+# Projeto Final Terraform intensivo repo de produto
 
-Esta aplicação roda apenas um teste de conexão com o banco de dados Postgresql
+Aplicação desenvolvida em node.js apenas para demonstração de caso de uso de um repo de produto.
+
+Neste repo de produto, temos os módulos terraform responsaveis por:
+
+* ECR - Elastic Container Registry - Armazenar a imagem da aplicação
+* ECS Service - criar o service do ecs
+* ECS Task - criar a task do service
+
+![](docs/stack.png)
 
 
-Como executar o teste.
+Build do node.js
 
 ```sh
 # Faz o build da imagem
